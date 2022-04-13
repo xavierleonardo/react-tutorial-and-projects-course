@@ -1,7 +1,11 @@
 import ReactDOM from "react-dom";
 
 function Greeting() {
-  return <h4>this is xavier and this is my first component</h4>;
+  return (
+    <div>
+      <h1>hello world</h1>
+    </div>
+  );
 }
 
 ReactDOM.render(<Greeting />, document.getElementById("root"));
